@@ -3,3 +3,146 @@
     padding: 0;
     margin: 0;
 }
+body{
+    Width: 1440px;
+    Height: 4491px;
+    Top: -2246px;
+    Left: -720px;
+}
+header{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: #E5E5E5;
+}
+#second-img{
+    position: absolute;
+    width: 857px;
+    height: 518px;
+    left: 303px;
+    top: 440px;
+}
+nav a{
+    text-decoration: none;
+    color: #095953;
+}
+nav img{
+    position: absolute;
+    width: 50.76px;
+    height: 26.5px;
+    left: 136.5px;
+    top: 43px;
+}
+#hug{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 419px;
+    height: 29px;
+    left: 901px;
+    top: 41px;
+}
+#hug1{
+    width: 127px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;     
+}
+#hug2{
+    width: 111px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#hug3{
+    width: 117px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+h1{
+    position: absolute;
+    width: 1119px;
+    height: 77px;
+    left: 161px;
+    top: 166px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.025em;
+    color: #0B423E;
+    text-align: center;
+}
+#hero-paragraph{
+    position: absolute;
+    width: 951px;
+    height: 58px;
+    left: 268px;
+    top: 270px;
+    Left: 268px;
+    right: 221px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 161.8%;
+    color: #0B423E;
+    text-align: center;
+    padding-right: 90px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 80px;
+    gap: 10px;
+    position: absolute;
+    width: 295px;
+    height: 77px;
+    left: 560px;
+    top: 387px;
+    background: #095953;
+    border-radius: 4px;
+}
+button a{
+    width: 135px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+
