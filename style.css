@@ -83,7 +83,7 @@ nav img{
     order: 2;
     flex-grow: 0;
 }
-h1{
+header h1{
     position: absolute;
     width: 1119px;
     height: 77px;
@@ -144,5 +144,117 @@ button a{
     flex-grow: 0;
     text-decoration: none;
 }
-
+#page-2 {
+    position: absolute;
+    width: 1440px;
+    height: 768px;
+    left: 0px;
+    top: 1024px;
+    background: #FFFFFF;
+}
+#page-2 > #text-bodies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 56px; 
+    position: absolute;
+    width: 1094px;
+    height: 540px;
+    left: 173px;
+    top: 125px;
+}
+#page-2 > #text-bodies > h1 {
+    width: 510px;
+    height: 38px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #095953;
+}
+#page-2 > #text-bodies > p {
+    width: 951px;
+    height: 58px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #547B78;
+}
+#page-2 > #text-bodies > section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 61px;
+    width: 1094px;
+    height: 332px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+#page-2 > #text-bodies > section > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 324px;
+    height: 332px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#page-2 > #text-bodies section img {
+    width: 80px;
+    height: 80px;
+}
+#page-2 > #text-bodies section article h1{
+    width: 304px;
+    height: 80px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #095953;
+}
+#page-2 > #text-bodies > section > section > article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 324px;
+    height: 220px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#page-2 > #text-bodies section article p{
+    width: 324px;
+    height: 116px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #547B78;
+}
 
