@@ -1,43 +1,53 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Poppins:wght@500&display=swap'); */
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-body{
-    Width: 1440px;
+
+
+body {
+    /* display: block; */
+    width: 1440px;
     /* Height: 4491px; */
     Top: -2246px;
-    Left: -720px;
+    /* left: -720px; */
     overflow-x: hidden;
+    
 }
-header{
+
+header {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1024px;
     left: 0px;
     top: 0px;
     background-color: #E5E5E5;
+    
 }
-#second-img{
+
+#second-img {
     position: absolute;
     width: 857px;
     height: 518px;
     left: 303px;
     top: 440px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #095953;
 }
-nav img{
+
+nav img {
     position: absolute;
     width: 50.76px;
     height: 26.5px;
     left: 136.5px;
     top: 43px;
 }
-#hug{
+
+#hug {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -49,7 +59,8 @@ nav img{
     left: 901px;
     top: 41px;
 }
-#hug1{
+
+#hug1 {
     width: 127px;
     height: 29px;
     font-family: 'Fira Sans';
@@ -59,9 +70,10 @@ nav img{
     line-height: 29px;
     flex: none;
     order: 0;
-    flex-grow: 0;     
+    flex-grow: 0;
 }
-#hug2{
+
+#hug2 {
     width: 111px;
     height: 29px;
     font-family: 'Fira Sans';
@@ -73,7 +85,8 @@ nav img{
     order: 1;
     flex-grow: 0;
 }
-#hug3{
+
+#hug3 {
     width: 117px;
     height: 29px;
     font-family: 'Fira Sans';
@@ -85,7 +98,8 @@ nav img{
     order: 2;
     flex-grow: 0;
 }
-header h1{
+
+header h1 {
     position: absolute;
     width: 1119px;
     height: 77px;
@@ -100,7 +114,8 @@ header h1{
     color: #0B423E;
     text-align: center;
 }
-#hero-paragraph{
+
+#hero-paragraph {
     position: absolute;
     width: 951px;
     height: 58px;
@@ -117,7 +132,8 @@ header h1{
     text-align: center;
     padding-right: 90px;
 }
-.btns{
+
+.btns {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -133,7 +149,7 @@ header h1{
     border-radius: 4px;
 }
 
-.btns a{
+.btns a {
     width: 135px;
     height: 29px;
     font-family: 'Fira Sans';
@@ -147,6 +163,7 @@ header h1{
     flex-grow: 0;
     text-decoration: none;
 }
+
 #page-2 {
     position: absolute;
     width: 1440px;
@@ -155,19 +172,21 @@ header h1{
     top: 1024px;
     background: #FFFFFF;
 }
-#page-2 > #text-bodies {
+
+#page-2>#text-bodies {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 56px; 
+    gap: 56px;
     position: absolute;
     width: 1094px;
     height: 540px;
     left: 173px;
     top: 125px;
 }
-#page-2 > #text-bodies > h1 {
+
+#page-2>#text-bodies>h1 {
     width: 510px;
     height: 38px;
     font-family: 'Fira Sans';
@@ -177,7 +196,8 @@ header h1{
     line-height: 38px;
     color: #095953;
 }
-#page-2 > #text-bodies > p {
+
+#page-2>#text-bodies>p {
     width: 951px;
     height: 58px;
     font-family: 'Poppins';
@@ -188,7 +208,8 @@ header h1{
     text-align: center;
     color: #547B78;
 }
-#page-2 > #text-bodies > section {
+
+#page-2>#text-bodies>section {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -200,25 +221,28 @@ header h1{
     order: 2;
     flex-grow: 0;
 }
-#page-2 > #text-bodies > section > section {
+
+#page-2>#text-bodies>section>section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 32px;
-    
+
     width: 324px;
     height: 332px;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
-#page-2 > #text-bodies section img {
+
+#page-2>#text-bodies section img {
     width: 80px;
     height: 80px;
 }
-#page-2 > #text-bodies section article h1{
+
+#page-2>#text-bodies section article h1 {
     width: 304px;
     height: 80px;
     font-family: 'Fira Sans';
@@ -228,7 +252,8 @@ header h1{
     line-height: 125%;
     color: #095953;
 }
-#page-2 > #text-bodies > section > section > article{
+
+#page-2>#text-bodies>section>section>article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,7 +266,8 @@ header h1{
     order: 1;
     flex-grow: 0;
 }
-#page-2 > #text-bodies section article p{
+
+#page-2>#text-bodies section article p {
     width: 324px;
     height: 116px;
     font-family: 'Poppins';
@@ -251,12 +277,14 @@ header h1{
     line-height: 29px;
     color: #547B78;
 }
-main{
+
+/* main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.middle-section{
+} */
+
+.middle-section {
     position: absolute;
     width: 1440px;
     height: 1924px;
@@ -264,13 +292,14 @@ main{
     top: 1792px;
     background: #FFFFFF;
 }
-.emyhead{
+
+.emyhead {
     position: absolute;
     width: 375px;
     height: 38px;
     left: 582px;
     top: 67px;
-    font-family: 'Fira Sans',sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -279,15 +308,15 @@ main{
 }
 
 
-.container{
+.container {
     position: absolute;
-    width: 95%;
-    height: 375px;
-    left: 205px;
-    top: 211px;
+    width: 100%;
+    height: 600px;
+    /* left: 205px; */
+    /* top: 211px; */
 }
 
-#bgimage{
+#bgimage {
     background: url("./assets/emy.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +330,7 @@ main{
 }
 
 
-.text{
+.text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -312,9 +341,10 @@ main{
     width: 419px;
     height: 325px;
     left: 816px;
-    top: 236px;  
+    top: 236px;
 }
-.emyinnerhead{
+
+.emyinnerhead {
     width: 419px;
     height: 80px;
 
@@ -329,7 +359,7 @@ main{
     flex-grow: 0;
 }
 
-.emyparg{
+.emyparg {
     width: 324px;
     height: 116px;
 
@@ -343,12 +373,40 @@ main{
     order: 1;
     flex-grow: 0;
 }
+
 /* main{
     position: absolute;
     width: 1440px;
 } */
-#btn-pro{
+#btn-pro {
     flex: none;
     order: 2;
     flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 80px;
+    gap: 10px;
+    /* position: absolute; */
+    width: 295px;
+    height: 77px;
+    left: 560px;
+    top: 387px;
+    background: #095953;
+    border-radius: 4px;
+}
+#btn-pro a{
+    width: 135px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
 }
