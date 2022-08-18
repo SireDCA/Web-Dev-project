@@ -336,7 +336,6 @@ header h1 {
     align-items: flex-start;
     padding: 0px;
     gap: 26px;
-
     position: absolute;
     width: 419px;
     height: 325px;
@@ -347,7 +346,6 @@ header h1 {
 .emyinnerhead {
     width: 419px;
     height: 80px;
-
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -362,7 +360,6 @@ header h1 {
 .emyparg {
     width: 324px;
     height: 116px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -373,11 +370,6 @@ header h1 {
     order: 1;
     flex-grow: 0;
 }
-
-/* main{
-    position: absolute;
-    width: 1440px;
-} */
 #btn-pro {
     flex: none;
     order: 2;
