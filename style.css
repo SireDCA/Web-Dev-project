@@ -18,7 +18,7 @@ body {
 
 header {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 1024px;
     left: 0px;
     top: 0px;
@@ -310,9 +310,9 @@ header h1 {
 
 .container {
     position: absolute;
-    width: 100%;
+    width: 935px;
     height: 600px;
-    /* left: 205px; */
+    left: 0px;
     /* top: 211px; */
 }
 
@@ -410,6 +410,9 @@ header h1 {
 	font-weight: 700;
 	font-size: 32px;
 	line-height:40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 #paragraph-3{
 	width: 324px;
@@ -420,48 +423,73 @@ header h1 {
 	font-size: 18px;
 	line-height:29px;
 	color: #547B78;
+    line-height: 161.8%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
-button-4{
+#button-4{
     display: flex;
-    flex-direction:row;
-	background-color: #095953;
+    flex-direction: row;
     justify-content: center;
-	align-items: center;
-	padding: 24px 80px;
+    align-items: center;
+    padding: 24px 80px;
     gap: 10px;
-    position: absolute;
     width: 295px;
     height: 77px;
-    left: 0px;
-    top: 300px;
     background: #095953;
     border-radius: 4px;
-    border-color: #095953;
-    border-style: none;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 #button-4 a{
-	width: 135px;
+	width: 129px;
     height: 29px;
-	font-family: 'Fira Sans';
+    font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
+    letter-spacing: 0.025em;
     color: #FFFFFF;
-	flex: none;
+    flex: none;
     order: 0;
     flex-grow: 0;
     text-decoration: none;
 }
 #img-4{
+    background-image: url("./assets/Rectangle 44.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 4px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 0px;
+	padding: 0;
 	gap: 26px;
 	position: absolute;
 	width: 491px;
 	height: 400px;
 	left: 450px;
-	top: 0px;
+	top: -26px;
+}
+.container-2{
+    position: absolute;
+    width: 935px;
+    height: 375px;
+    left: 300px;
+    top: 802px;
+}
+.container-2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+    position: absolute;
+    width: 324px;
+    height: 325px;
+    /* left: 300px; */
+    /* top: 827px; */
 }
