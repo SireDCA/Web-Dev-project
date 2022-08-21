@@ -627,3 +627,234 @@ button{
     /* box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.1); */
     border-radius: 25px;
 }
+
+footer{
+    position: absolute;
+width: 1440px;
+height: 775px;
+left: 0px;
+top: 3716px;
+
+background: #F5F5F5;
+}
+
+#reshape{
+    position: absolute;
+width: 609px;
+height: 58px;
+left: 415px;
+top: 104px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #095953;
+}
+
+#frame-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 80px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 379px;
+    height: 77px;
+    left: 525px;
+    top: 222px;
+    
+    background: #095953;
+}
+
+#frame-3 a{
+    width: 219px;
+height: 29px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#frame-32{
+    position: absolute;
+width: 1440px;
+height: 401px;
+left: 0px;
+top: 374px;
+
+background: #3B5249
+}
+
+#inc{
+    position: absolute;
+width: 121px;
+height: 64px;
+left: 217px;
+top: 155px;
+
+/* background: #FFFFFF; */
+}
+
+#who-we-are{
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 569px;
+    top: 148px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#what-we-do{
+    position: absolute;
+    width: 127px;
+    height: 30px;
+    left: 839px;
+    top: 148px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#patners{
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 1110px;
+    top: 148px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#blog{
+    position: absolute;
+    width: 48px;
+    height: 30px;
+    left: 569px;
+    top: 226px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#contact{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 839px;
+    top: 226px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#legal{
+    position: absolute;
+    width: 57px;
+    height: 30px;
+    left: 1110px;
+    top: 226px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#seng102{
+    position: absolute;
+    width: 297px;
+    height: 22px;
+    left: 571px;
+    top: 331px;
+    
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
