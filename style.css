@@ -8,7 +8,7 @@
 
 body {
     /* display: block; */
-    width: 1440px;
+    /* width: 1440px; */
     /* Height: 4491px; */
     Top: -2246px;
     /* left: -720px; */
@@ -17,8 +17,8 @@ body {
 }
 
 header {
-    position: absolute;
-    width: 1440px;
+    /* position: absolute; */
+    width: 100%;
     height: 1024px;
     left: 0px;
     top: 0px;
@@ -30,7 +30,9 @@ header {
     position: absolute;
     width: 857px;
     height: 518px;
-    left: 303px;
+    left:50%;
+    transform:translateX(-50%);
+    /* left: 303px; */
     top: 440px;
 }
 
@@ -103,7 +105,7 @@ header h1 {
     position: absolute;
     width: 1119px;
     height: 77px;
-    left: 161px;
+    left: 50%;
     top: 166px;
     font-family: 'Fira Sans';
     font-style: normal;
@@ -115,14 +117,19 @@ header h1 {
     text-align: center;
 }
 
+header h1, header p, header button{
+    transform:translateX(-50%);
+    left: 50%
+}
+
 #hero-paragraph {
     position: absolute;
     width: 951px;
     height: 58px;
-    left: 268px;
+    /* left: 50%; */
     top: 270px;
-    Left: 268px;
-    right: 221px;
+    /* Left: 268px; */
+    /* right: 221px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -130,7 +137,11 @@ header h1 {
     line-height: 161.8%;
     color: #0B423E;
     text-align: center;
-    padding-right: 90px;
+    /* padding-right: 90px; */
+}
+button{
+    border: none;
+    /* outline: none; */
 }
 
 .btns {
@@ -143,7 +154,7 @@ header h1 {
     position: absolute;
     width: 295px;
     height: 77px;
-    left: 560px;
+    /* left: 560px; */
     top: 387px;
     background: #095953;
     border-radius: 4px;
