@@ -504,3 +504,126 @@ button{
     /* left: 300px; */
     /* top: 827px; */
 }
+
+.learn-more{
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 80px;
+    gap: 10px;
+    width: 295px;
+    height: 77px;
+    left: 560px;
+    top: 387px;
+    background : #095953;
+
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 80px; */
+    /* gap: 10px; */
+    /* position: absolute;
+    width: 295px;
+    height: 77px;
+    left: 560px;
+    top: 387px;
+    background: #095953;
+    border-radius: 4px; */
+}
+.learn-more a{
+    width: 135px;
+    height: 29px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    /* flex-grow: 0; */
+    text-decoration: none;
+}
+
+.header6{
+    width: 304px;
+    height: 80px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: #095953;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.divi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+    position: absolute;
+    width: 324px;
+    height: 325px;
+    left: 816px;
+    top: 1418px;
+
+}
+
+
+.header6 span {
+    color: #0DB1A5;
+}
+
+.divi p{
+
+    width: 324px;
+    height: 116px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 161.8%;
+
+    color: #547B78;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.sect {
+    margin-top: 300px;
+    padding-right: 100%;
+    position: absolute;
+    width: 70%;
+    height: 600px;
+    /* left: 205px; */
+    top: 1430px;
+    display: flex;
+
+}
+
+#imageSide {
+    background: url("./assets/Rectangle 45.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 491px;
+    height: 375px;
+    left: 205px;
+    top: 1393px;
+    /* box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.1); */
+    border-radius: 25px;
+}
