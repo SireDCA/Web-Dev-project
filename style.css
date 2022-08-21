@@ -4,18 +4,6 @@
     padding: 0;
     margin: 0;
 }
-
-
-body {
-    /* display: block; */
-    /* width: 1440px; */
-    /* Height: 4491px; */
-    Top: -2246px;
-    /* left: -720px; */
-    overflow-x: hidden;
-    
-}
-
 header {
     /* position: absolute; */
     width: 100%;
@@ -240,7 +228,6 @@ button{
     align-items: center;
     padding: 0px;
     gap: 32px;
-
     width: 324px;
     height: 332px;
     flex: none;
@@ -288,20 +275,17 @@ button{
     line-height: 29px;
     color: #547B78;
 }
-
-/* main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .middle-section {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1924px;
     left: 0px;
     top: 1792px;
     background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .emyhead {
@@ -520,21 +504,6 @@ button{
     left: 560px;
     top: 387px;
     background : #095953;
-
-
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 80px; */
-    /* gap: 10px; */
-    /* position: absolute;
-    width: 295px;
-    height: 77px;
-    left: 560px;
-    top: 387px;
-    background: #095953;
-    border-radius: 4px; */
 }
 .learn-more a{
     width: 135px;
@@ -577,7 +546,6 @@ button{
     height: 325px;
     left: 816px;
     top: 1418px;
-
 }
 
 
@@ -586,33 +554,17 @@ button{
 }
 
 .divi p{
-
     width: 324px;
     height: 116px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 161.8%;
-
     color: #547B78;
     flex: none;
     order: 1;
     flex-grow: 0;
-
-}
-
-.sect {
-    margin-top: 300px;
-    padding-right: 100%;
-    position: absolute;
-    width: 70%;
-    height: 600px;
-    /* left: 205px; */
-    top: 1430px;
-    display: flex;
-
 }
 
 #imageSide {
@@ -624,36 +576,30 @@ button{
     height: 375px;
     left: 205px;
     top: 1393px;
-    /* box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.1); */
     border-radius: 25px;
 }
 
 footer{
     position: absolute;
-width: 1440px;
-height: 775px;
-left: 0px;
-top: 3716px;
-
-background: #F5F5F5;
+    width: 100%;
+    height: 775px;
+    left: 0px;
+    top: 3716px;
+    background: #F5F5F5;
 }
 
 #reshape{
     position: absolute;
-width: 609px;
-height: 58px;
-left: 415px;
-top: 104px;
-
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 58px;
-/* identical to box height */
-
-
-color: #095953;
+    width: 609px;
+    height: 58px;
+    left: 415px;
+    top: 104px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #095953;
 }
 
 #frame-3{
@@ -663,56 +609,48 @@ color: #095953;
     align-items: center;
     padding: 24px 80px;
     gap: 10px;
-    
     position: absolute;
     width: 379px;
     height: 77px;
     left: 525px;
     top: 222px;
-    
     background: #095953;
 }
 
 #frame-3 a{
     width: 219px;
-height: 29px;
-
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-letter-spacing: 0.025em;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+    height: 29px;
+    text-decoration: none;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 #frame-32{
     position: absolute;
-width: 1440px;
-height: 401px;
-left: 0px;
-top: 374px;
-
-background: #3B5249
+    width: 100%;
+    height: 401px;
+    left: 0px;
+    top: 374px;
+    background: #3B5249;
+    display: flex;
+}
+#frame-32 a{
+    text-decoration: none;
 }
 
 #inc{
     position: absolute;
-width: 121px;
-height: 64px;
-left: 217px;
-top: 155px;
-
-/* background: #FFFFFF; */
+    width: 121px;
+    height: 64px;
+    left: 217px;
+    top: 155px;
 }
 
 #who-we-are{
@@ -721,18 +659,14 @@ top: 155px;
     height: 30px;
     left: 569px;
     top: 148px;
-    
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 125%;
-    /* identical to box height, or 30px */
-    
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
 
@@ -742,18 +676,14 @@ top: 155px;
     height: 30px;
     left: 839px;
     top: 148px;
-    
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 125%;
-    /* identical to box height, or 30px */
-    
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
 
@@ -763,39 +693,30 @@ top: 155px;
     height: 30px;
     left: 1110px;
     top: 148px;
-    
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 125%;
-    /* identical to box height, or 30px */
-    
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
-
 #blog{
     position: absolute;
     width: 48px;
     height: 30px;
     left: 569px;
     top: 226px;
-    
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 125%;
-    /* identical to box height, or 30px */
-    
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
 
@@ -805,18 +726,14 @@ top: 155px;
     height: 30px;
     left: 839px;
     top: 226px;
-    
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 125%;
-    /* identical to box height, or 30px */
-    
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
 
@@ -826,18 +743,15 @@ top: 155px;
     height: 30px;
     left: 1110px;
     top: 226px;
-    
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 125%;
     /* identical to box height, or 30px */
-    
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
 }
 
@@ -847,14 +761,11 @@ top: 155px;
     height: 22px;
     left: 571px;
     top: 331px;
-    
+    text-align: center;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-    
-    
     color: #FFFFFF;
 }
