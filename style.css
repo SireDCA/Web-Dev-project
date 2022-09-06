@@ -367,7 +367,7 @@ button{
     justify-content: center;
     width: 100%;
 }
-footer{
+#footers{
     width: 100%;
     height: 450px;
     left: 0px;
@@ -415,34 +415,34 @@ footer{
     order: 0;
     flex-grow: 0;
 }
-#frame-32{
+#frame-31{
     width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#frame-32 a{
+#frame-31 a{
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Fira Sans';
     font-size: 24px;
     line-height: 60px;
 }
-#footer-container{
+#footers-container{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     width: 70%;
     /* margin-left: 50px; */
 }
-#footer-container div{
+#footers-container div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 33.3%;
 }
-#img-container{
+#img-containerr{
     width: 30%;
     height: 70px;
     display: flex;
@@ -453,7 +453,7 @@ footer{
     height: 64px;
     top: 155px;
 }
-#seng102{
+#seng-102{
     width: 297px;
     height: 20px;
     top: 331px;
@@ -603,39 +603,39 @@ footer{
         width: 100%;
         min-height: 300px;
     }
-    #frame-32{
+    #frame-31{
         flex-direction: column;
     }
-    #frame-32 a{
+    #frame-31 a{
         text-align: center;
     }
-    #footer-container{
+    #footers-container{
         flex-direction: column;
         align-items: center;
     }
-    #footer-container div{
+    #footers-container div{
         align-items: center;
     }
-    footer{
+    #footers{
         justify-content: space-around;
         height: 700px;
         width: 100%;
         padding-top: 50px;
     }
-    #img-container{
-        margin-bottom: 20px;
+    #img-containerr{
+        margin-bottom: 1.25em;
     }
     #frame-3{
         width: 45%;
         margin: 20px 0;
     }
     #frame-3 a{
-        font-size: 18px;
+        font-size: 1.125em;
     }
     .bgimage{
-        width: 31%;
+        width: 31.2%;
     }
     .quotes{
-        margin-top: 50px;
+        margin-top: 3.125em;
     }
 }
