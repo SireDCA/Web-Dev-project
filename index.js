@@ -1,14 +1,24 @@
+//Query selectors
 let quoteBtn = document.querySelector(".btns");
+let icons = document.querySelector("#ham");
+let hugs = document.querySelector("#hug");
 
-quoteBtn.onclick = function(){
-    console.log("button was clicked!");
+//Functions
+icons.onclick = function(){
+    showIcons();
+}
+
+quoteBtn.onclick = function() {
     changeText();
 }
+
+function showIcons() {
+    icons.style.display = "none"
+    hugs.style.display = "flex"
+}
 function changeText() {
-    // console.log("button was clicked!");
-    // let newBtn = 
-   quoteBtn.innerHTML = "Quote Sent";
-   console.log(quoteBtn.innerHTML);
+   quoteBtn.innerHTML = "Sent";
+   quoteBtn.className = "quotes"
 }
 const btn = document.querySelector(".dark-mode-toggle");
 document.querySelector("html");
