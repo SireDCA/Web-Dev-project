@@ -5,19 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zul8ynd.css">
     <link rel="stylesheet" href="style.css">
     <title>Inc</title>
-    
 </head>
-
 <body>
     <header>
         <nav>
-            <img id="header-logo" src="./assets/logo.svg" alt="logo">
+            <img id="logo" src="./assets/logo.svg" alt="logo">
             <div id="hug">
                 <a href="#" id="hug1">What we do</a>
                 <a href="#" id="hug2">Our works</a>
                 <a href="#" id="hug3">Contact Us</a>
+            </div>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#">What we do</a></li>
+                                <li><a href="#">Our works</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
         <h1>
@@ -60,50 +75,50 @@
     </div>
     <section class="middle-section">
         <h3 class="emyhead">Explore Our works</h3>
-        <div class="container">
-            <div id="bgimage">
-
+        <div class="our-works">
+            <img src="./assets/emy.png" id="bgimage" class="bg-image"></img>
+            <div class="text" id="text-1">
+                <h3 id="header-1"><span>Tox: </span>Automated intelligent data application</h3>
+                    <p class="emyparg">Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum</p>
+                    <button><a href="#">Learn more</a></button>
             </div>
-            <div class="text">
-                <h3 class="emyinnerhead">Tox: <span style="color:#095953;">Automated intelligent data application</span></h3>
-                <p class="emyparg" style="color:#095953;">Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum</p>
-                <button id="btn-pro"><a href="#">Learn more</a></button>
-            </div>
-        </div>
-        <div class="container-2">
-            <div>
-                <h3 id="header-3"><span style="color:#C75A1D">Azuma</span><span style="color:#095953"> App Reasearch</span></h3>
+            <div class="text" id="text-2">
+                <h3 id="header-2"><span>Azuma</span> App Reasearch</h3>
                 <p id="paragraph-3">Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
-                <button id="button-4"><a href="#">Learn more</a></button>
+                <button><a href="#">Learn more</a></button>
             </div>
-            <div id="img-4">
-
-            </div>
-       </div>
-       <div class="container">
-           <div id="imageSide"></div>
-           <div class="divi">
-               <h6 class="header6">Rebranding the <span>Pulla</span> Web presence</h6>
-               <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>   
-               <button class="learn-more"><a href="#">Learn More</a></button>
-           </div> 
-       </div>
+            <img src="./assets/Rectangle 44.png" id="img-4" class="bg-image"></img>
+            <img src="./assets/Rectangle 45.png" id="imageSide" class="bg-image"></mig>
+            <div class="text" id="text-3">
+                <h3 id="header-3">Rebranding the <span>Pulla</span> Web presence</h6>
+                <p>Bring your imaginations to life and make the most of your thoughts, but make history because the rest of this text is Lorem Ipsum </p>
+                <button class="learn-more"><a href="#">Learn More</a></button>
+            </div> 
+        </div>
     </section>
-    <footer>
-        <p id="reshape">We are reshaping the future</p>
-        <button id="frame-3"><a href="#">Take a leap with us</a></button>
-    
-    <div id="frame-32">
-        <img src="./assets/inc.png" alt="logo" id="inc">
-        <a href="#" id="who-we-are">Who we are</a>
-        <a href="#" id="what-we-do">What we do</a> 
-        <a href="#" id="patners">Partners</a>
-        <a href="#" id="blog">Blog</a>
-        <a href="#" id="contact">Contact</a>
-        <a href="#" id="legal">Legal</a>
-        <p id="seng102">Designed with ❤ by Loy for SENG102</p>
-    </div>
-</footer>
+    <aside>
+        <p>We are reshaping the future</p>
+        <button><a href="#">Take a leap with us</a></button>
+    </aside>
+        <footer id="frame-32">
+            <div class="footer-logo">
+                <img src="./assets/inc.png" alt="logo" id="inc">
+            </div>
+            <div class="footer-aside">
+                <div class="nav-links">
+                    <a href="#" id="who-we-are">Who we are</a>
+                    <a href="#" id="what-we-do">What we do</a>
+                    <a href="#" id="patners">Partners</a>
+                    <a href="#" id="blog">Blog</a>
+                    <a href="#" id="contact">Contact</a>
+                    <a href="#" id="legal">Legal</a>
+                </div>
+                <p id="seng102">Designed with ❤ by Loy for SENG102</p>
+            </div>
+        </footer>
+            <button class="dark-mode-toggle">
+                <img src="../assets/darkmode-toggle.svg" alt="image could not load">
+            </button>
 </body>
 <script src="index.js"></script>
 </html>
