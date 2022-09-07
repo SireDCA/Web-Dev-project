@@ -1,7 +1,9 @@
+//Query selectors
 let quoteBtn = document.querySelector(".btns");
 let icons = document.querySelector("#ham");
 let hugs = document.querySelector("#hug");
 
+//Functions
 icons.onclick = function(){
     showIcons();
 }
